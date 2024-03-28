@@ -47,6 +47,10 @@ CLASS zmvbr_cl_work_struc_data_obj IMPLEMENTATION.
 
     connection_nested = value #( airport_from_id = 'ABC'
                                       airport_to_id = 'XYZ'
+                                      message       = VALUE #( msgty = 'E'
+                                                                            msgid = 'ABC'
+                                                                            msgno = '123'
+                                                                           )
                                       carrier_name = 'My Airline'
                                      ).
 
